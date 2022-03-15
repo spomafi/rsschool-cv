@@ -16,3 +16,28 @@ A little later, I got a man who told me about his studies at RS School and advis
 
 - HTML/CSS
 - GIT
+
+## Code Example:
+
+```javascript
+function generatePairs(m, n) {
+  let result = []
+  for (let i = m; i <= n; i++)
+    for (let j = i; j <= n; j++)
+      result.push([i, j])
+  return result
+}
+```
+
+## Work experience:
+
+No experience.
+
+## Education and courses:
+
+- CSS, HTML, Git video courses on YouTube
+- Tranings HTML, CSS, JavaScript on HTML Academy
+
+## Language:
+
+A-2

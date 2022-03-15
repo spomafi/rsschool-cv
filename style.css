@@ -1,0 +1,186 @@
+body {
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    padding: 0 10vw;
+}
+
+.all {
+    display: flex;
+    margin: 0;
+    line-height: normal;
+}
+
+section {
+    background: #E1D8CF;
+}
+
+.info {
+    background: #fcf9f6;
+}
+
+.cont {
+    flex-grow: 1;
+}
+
+.contacts {
+    padding: 0px 20px 5px;
+}
+
+.skills {
+    padding: 0px 20px 5px;
+}
+
+.lang {
+    padding: 0px 20px 5px;
+}
+
+.abmy {
+    text-align: left; 
+    padding: 40px 40px 20px 40px;
+    border: 200px;
+}
+
+.code {
+    text-align: left; 
+    padding: 20px 40px 0px;
+}
+
+.coode {
+    color: gray;
+    padding: 0px 0px;
+}
+
+.work {
+    text-align: left; 
+    padding: 25px 40px;
+}
+
+.education {
+    text-align: left; 
+    padding: 20px 40px;
+}
+
+h1 {
+    background: #373741;
+    font-size: 50px;
+    padding: 40px 40px;
+    color: #fcf9f6;
+    margin: 0;
+    text-align: center;
+}
+
+.my {
+    width: 330px;
+    height: 400px;
+    padding: 20px 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: #373741;
+}
+
+.ghlogo {
+    height: auto;
+    width: 100px;
+    padding: 23px 0px 0px;
+}
+
+.year {
+    font-size: 20px;
+    padding: 10px;
+    color: #fcf9f6;
+}
+
+.rsslogo {
+    width: 60px;
+    height: 80px;
+    padding: 0px 10px 0px 0px;
+}
+
+.amy {
+    text-indent: 20px;
+}
+
+.con {
+    background: #373741;
+    color: #fcf9f6;
+}
+
+.sk {
+    background: #373741;
+    color: #fcf9f6;
+}
+
+.lan {
+    background: #373741;
+    color: #fcf9f6;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 18px;
+}
+
+@media (max-width: 1100px) {
+    .coode {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 490px) {
+    .my {
+        width: 330px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+} 
+
+@media (max-width: 900px) {
+    .all {
+        flex-direction: column;
+    }
+
+    .name2 {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .name1 {
+        display: none;
+    }
+}
+
+@media (max-width: 490px) {
+    .my {
+        width: 200px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    h2 {
+        font-size: 17px;
+    }
+
+    .amy {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    ul {
+        font-size: 15px;
+    }
+}
